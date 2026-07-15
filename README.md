@@ -48,8 +48,9 @@ java -Dlog.level=DEBUG -jar target/stock-calculator.jar samples/operations.csv r
 | `quantity`   | количество со знаком: `+` поступление, `−` продажа                 |
 | `balance`    | остаток **этого товара** после движения (может быть отрицательным) |
 
-Пример: из [`samples/operations.csv`](samples/operations.csv) получается
-[`samples/result.csv`](samples/result.csv):
+Готовый пример CSV-файла, который формируется на выходе, лежит в репозитории:
+[`samples/result.csv`](samples/result.csv) — он получен программой из входного
+[`samples/operations.csv`](samples/operations.csv):
 
 ```csv
 operation_number;type;group_id;product_id;quantity;balance
