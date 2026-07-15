@@ -1,0 +1,15 @@
+group_id;product_id;quantity
+# лексикографический ранг: A10 < A9, продажа начинается с A10
+PHONES;A10;5
+PHONES;A9;5
+PHONES;7
+
+TV;SAMSUNG;4
+TV;LG;2
+TV;10
+ACC;3
+TV;SAMSUNG;6
+TV;1
+PHONES;A9;oops
+PHONES;A9;2
+PHONES;9
